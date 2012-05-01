@@ -1,0 +1,1268 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>欢迎您光临文润连锁酒店</title>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<script src="js/setday.js" type="text/javascript"></script>
+<script language="javascript">
+function strToDate(str)
+{
+  var arys= new Array();
+  arys=str.split('-');
+  if(arys[1]<10)
+  {
+  arys[1]="0"+arys[1];
+  }
+  if(arys[2]<10)
+  {
+  arys[2]="0"+arys[2];
+  }
+ str1= arys[0]+arys[1]+arys[2];
+  return str1;
+} 
+
+</script>
+<script language="javascript">
+<!--
+
+function CheckForm(them){
+var myDate = new Date();
+var jdate;
+jy=myDate.getYear();
+jm=myDate.getMonth();
+jm=jm+1;
+jd=myDate.getDate();
+if(jm<10)
+  {
+  jm="0"+jm;
+  }
+  if(jd<10)
+  {
+  jd="0"+jd;
+  }
+  jdate=jy+"-"+jm+"-"+jd
+//alert(jdate);
+if(them.cs.value==""){
+alert("请选择入住城市！");
+them.cs.focus();
+return false;
+}
+if(them.lsd.value==""){
+alert("请选择入住酒店！");
+them.lsd.focus();
+return false;
+}
+if(them.rtime.value==""){
+alert("请选择入住日期！");
+them.rtime.focus();
+return false;
+}
+if(them.ltime.value==""){
+alert("请选择离店日期！");
+them.ltime.focus();
+return false;
+}
+if(them.ltime.value<them.rtime.value || them.ltime.value==them.rtime.value){
+alert("离店时间必须大于入住时间！");
+return false;
+}
+if(them.rtime.value<jdate ){
+alert("入住日期不能小于当前日期！");
+return false;
+}
+
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+//-->
+</script>
+
+<script language="javascript">
+function del()
+{
+ document.all.username.value="";
+}
+function send()
+{
+document.form2.csid.value=document.form1.cs.options[document.form1.cs.selectedIndex].value;
+form2.submit();
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+<style type="text/css">
+<!--
+#Layer1 {
+	position: relative;
+	width:1px;
+	height:1px;
+	z-index:1;
+
+}
+#Layer2 {
+	position:absolute;
+	width:93px;
+	height:69px;
+	z-index:1;
+	left: 220px;
+	top: 50px;
+	visibility: hidden;
+	overflow: visible;
+}
+#Layer3 {
+	position:absolute;
+	width:100px;
+	height:74px;
+	z-index:2;
+	left: 305px;
+	top: 50px;
+	visibility: hidden;
+	overflow: visible;
+}
+#Layer4 {
+	position:absolute;
+	width:100px;
+	height:75px;
+	z-index:3;
+	left: 478px;
+	top: 50px;
+	visibility: hidden;
+	overflow: visible;
+}
+#Layer5 {
+	position:absolute;
+	width:102px;
+	height:115px;
+	z-index:4;
+	left: 130px;
+	top: 50px;
+	visibility: hidden;
+	overflow: visible;
+}
+#Layer6 {
+	position:absolute;
+	width:80px;
+	height:75px;
+	z-index:3;
+	left: 52px;
+	top: 50px;
+	visibility: hidden;
+	overflow: visible;
+}
+-->
+</style>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="MM_preloadImages('images/navi1_1.jpg','images/navi3_3.jpg','images/navi4_4.jpg','images/navi5_5.jpg','images/nav5_5.jpg','images/navi7_7.jpg','images/navi2_2.jpg','images/navi6_6.jpg')">
+
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+
+  <tr>
+    <td height="40" colspan="6" align="right" valign="bottom" class="red"><a name="~" id="~"></a><marquee behavior="scroll" direction="left" scrollamount="2">无论夜有多深,文润总为您守候一盏灯!</marquee>        </td>
+  </tr>
+  <tr>
+    <td width="13"></td>
+    <td width="244"><img src="images/logo1.jpg" width="244" height="60" /></td>
+    <td width="190"><img src="images/logo.jpg" width="190" height="60" /></td>
+    <td width="42"></td>
+    <td width="500">
+	 <div id="Layer1" style="display:none" name="Layer1"  >
+            <div id="Layer2" onMouseOver="MM_showHideLayers('Layer2','','show','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')" >
+                <table width="87"  align="center" cellpadding="0" cellspacing="0" bordercolor="#9F8300"  style="">
+                <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="member/mem1.asp" class="nav">会员说明</a></td>
+                </tr>
+				 
+				 <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center"><a href="member/mem_xinxi.asp" class="nav">会员帐户</a></td>
+                </tr>
+                <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center"><a href="member/mem_jf.asp" class="nav">会员积分</a></td>
+                </tr>
+				<tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center"><a href="news/yh.asp?leibieid=12" class="nav">会员公告</a></td>
+                </tr>
+                
+              </table>
+        </div>
+            <div id="Layer3" onMouseOver="MM_showHideLayers('Layer2','','hide','Layer3','','show','Layer4','','hide','Layer5','','hide','Layer6','','hide')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')"> 
+              <table width="87"  align="center" cellpadding="0" cellspacing="0" bordercolor="#9F8300"  style="">
+                <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="news/yh.asp?leibieid=7" class="nav">文润新闻</a></td>
+                </tr>
+               
+				 <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="news/yh.asp?leibieid=13" class="nav">行业新闻</a></td>
+                </tr>
+                       </table></div>
+            <div id="Layer4" onMouseOver="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','show','Layer5','','hide','Layer6','','hide')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')">
+              <table width="87" border="1"  align="center" cellpadding="0" cellspacing="0" bordercolor="#9F8300"  style="">
+                <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="service/service.asp" class="nav">客户意见</a></td>
+                </tr>
+				 <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="service/kf.asp" class="nav">在线客服</a></td>
+                </tr>
+                <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="service/map.asp" class="nav">酒店地图</a></td>
+                </tr>
+        </table></div>
+        <div id="Layer5" onMouseOver="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','show','Layer6','','hide')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')"> 
+              <table width="87" align="center" cellpadding="0" cellspacing="0" bordercolor="#9F8300"  style="">
+                <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+				
+                  <td height="25" align="center" ><a href="fdjs/fdjs.asp?n_type=1" class="nav">南京地区</a></td>
+                </tr>
+                <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="fdjs/fdjs.asp?n_type=2" class="nav">马鞍山地区</a></td>
+                </tr>
+                <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="fdjs/fdjs.asp?n_type=3" class="nav">泰州地区</a></td>
+                </tr>
+				 <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="fdjs/fdjs.asp?n_type=4" class="nav">常州地区</a></td>
+                </tr>
+				 <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="fdjs/fdjs.asp?n_type=6" class="nav">巢湖地区</a></td>
+                </tr>
+				
+						 <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="fdjs/fdjs.asp?n_type=10" class="nav">苏州地区</a></td>
+                </tr>
+									 <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="fdjs/fdjs.asp?n_type=11" class="nav">扬州地区</a></td>
+                </tr>
+                 <tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="fdjs/fdjs.asp?n_type=13" class="nav">南通地区</a></td>
+                </tr>
+				
+				
+				 
+        </table></div>
+		  <div id="Layer6" onMouseOver="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','show')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')">
+              <table  align="center"  width="87" cellpadding="0" cellspacing="0" bordercolor="#9F8300"  style="">
+                
+				<tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="about/jtjj.asp" class="nav">文润简介</a></td>
+                </tr>
+                				<tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="about/ryzs.asp" class="nav">荣誉证书</a></td>
+                </tr>
+								<tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="about/ldfc.asp" class="nav">领导风采</a></td>
+                </tr>
+								<tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="about/jtdsj.asp" class="nav">文润大事记</a></td>
+                </tr>
+								<tr style="cursor:hand" onMouseMove="this.style.background='#F9E908';" onMouseOut="this.style.background='#FEC708';" bgcolor="#FEC708">
+                  <td height="25" align="center" ><a href="about/qywh.asp" class="nav">文润文化</a></td>
+                </tr>
+        </table></div>
+	 </div>
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" onMouseOver="document.getElementById('Layer1').style.display='';">
+      
+	  <tr>
+	    <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','images/navi1_1.jpg',1)"><img src="images/navi1.jpg" name="Image2" width="52" height="60" border="0" id="Image2" /></a></td>
+        <td><a href="#" target="_blank" onMouseOver="MM_swapImage('Image6','','images/navi2_2.jpg',1)" onMouseOut="MM_swapImgRestore()"><img src="images/navi2.jpg" name="Image6" width="86" height="60" border="0" id="Image6" onMouseOver="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','show')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')"/></a></td>
+        <td><a href="fdjs/fdjs.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/navi3_3.jpg',1)"><img src="images/navi3.jpg" name="Image3" width="86" height="60" border="0" id="Image3"  onmouseover="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','show','Layer6','','hide')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')"/></a></td>
+        <td><a href="member/mem1.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/navi4_4.jpg',1)"><img src="images/navi4.jpg" name="Image4" width="87" height="60" border="0" id="Image4" onMouseOver="MM_showHideLayers('Layer2','','show','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')" /></a></td>
+        <td><a href="news/yh.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/navi5_5.jpg',1)"><img src="images/navi5.jpg" name="Image5" width="87" height="60" border="0" id="Image5"  onMouseOver="MM_showHideLayers('Layer2','','hide','Layer3','','show','Layer4','','hide','Layer5','','hide','Layer6','','hide')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')"/></a></td>
+        <td><a href="jiameng/fwys.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image51','','images/navi6_6.jpg',1)"><img src="images/navi6.jpg" name="Image51" width="86" height="60" border="0"></a><a href="jiameng/fwys.asp" target="_blank" onMouseOver="MM_swapImage('Image6','','images/navi6_6.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+        <td><a href="service/service.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','images/navi7_7.jpg',1)"><img src="images/navi7.jpg" name="Image7" width="90" height="60" border="0" id="Image7" onMouseOver="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','show','Layer5','','hide','Layer6','','hide')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide','Layer6','','hide')"/></a></td>
+      </tr>
+    </table></td>
+    <td width="13"></td>
+  </tr>
+</table>
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="13"></td>
+    <td width="246" height="238" valign="top" background="images/yuding_bg.jpg"><table width="75%" border="0" align="center" cellpadding="0" cellspacing="0">
+     <form id="form1" name="form1" method="post" action="fdjs/fdjs2.asp" onSubmit=" return CheckForm(this)"> <tr>
+        <td height="38"><img src="images/yd_tit1.jpg" width="186" height="25" /></td>
+      </tr>
+      <tr>
+        <td>
+      
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="20"><img src="images/ico2.jpg" width="9" height="9" />&nbsp;请选择入住城市</td>
+          </tr>
+          <tr>
+            <td> 
+			<select name="cs" size="1" class="border" id="cs" style="width:185px" onChange="send()">
+			              <option value="">--请选择--</option>
+							  
+                                   
+                <option value="1" 
+				
+				>Nan_Jing丶南京</option>
+                
+                <option value="2" 
+				
+				>Ma_An_Shan丶马鞍山</option>
+                
+                <option value="3" 
+				
+				>Tai_Zhou丶泰州</option>
+                
+                <option value="4" 
+				
+				>Chang_Zhou丶常州</option>
+                
+                <option value="6" 
+				
+				>Chao_Hu丶巢湖</option>
+                
+                <option value="10" 
+				
+				>Su_Zhou丶苏州</option>
+                
+                <option value="11" 
+				
+				>Jiang_Du丶扬州</option>
+                
+                <option value="13" 
+				
+				>Nan_Tong丶 南通</option>
+                
+                    
+					</select>
+				  </td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="20"><img src="images/ico2.jpg" width="9" height="9" />&nbsp;入住日期</td>
+          </tr>
+          <tr>
+            <td><input name="rtime" type="text" value="2012-04-26" style="width:180px" onFocus="setday(this)" readonly  /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="20"><img src="images/ico2.jpg" width="9" height="9" />&nbsp;离店日期</td>
+          </tr>
+          <tr>
+            <td><input type="text" name="ltime"  value="2012-04-27" style="width:180px" onFocus="setday(this)" readonly /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="20"><img src="images/ico2.jpg" width="9" height="9" />&nbsp;入住酒店名称</td>
+          </tr>
+          <tr>
+            <td><select name="lsd" size="1" class="border" id="select" style="width:185px">
+			    <option value="">--请选择--</option>
+                
+                <option value="50" >常州小河店（常州四店）</option>
+                
+                <option value="49" >马鞍山湖西南路店</option>
+                
+                <option value="48" >泰州二店</option>
+                
+                <option value="47" >南京龙江新城市广场店</option>
+                
+                <option value="46" >南京丹凤街三店</option>
+                
+                <option value="44" >南京江宁竹山路店</option>
+                
+                <option value="43" >南京大明路店</option>
+                
+                <option value="13" >南京珠江路西大影壁店</option>
+                
+                <option value="28" >泰州坡子街店</option>
+                
+                <option value="8" >南京丹凤街恒基公寓店</option>
+                
+                <option value="4" >南京珠江路雄狮店</option>
+                
+                <option value="3" >南京珠江路百脑汇店</option>
+                
+                <option value="6" >南京丹凤街唱经楼店</option>
+                
+                <option value="26" >泰州姜堰店</option>
+                
+                <option value="5" >南京中央门汽车站店</option>
+                
+                <option value="24" >马鞍山雨山西路店</option>
+                
+                <option value="25" >南京六合长江路店</option>
+                
+                <option value="32" >常州湖塘花园街一店</option>
+                
+                <option value="19" >南京栖霞区甘家巷店</option>
+                
+                <option value="35" >常州湖塘花园街二店</option>
+                
+                <option value="17" >南京广州路随园大厦店</option>
+                
+                <option value="1" >南京瑞金路金润发店</option>
+                
+                <option value="12" >南京北门桥店 </option>
+                
+                <option value="39" >南京大桥南路店</option>
+                
+                <option value="18" >南京湖南路丁家桥店</option>
+                
+                <option value="38" >马鞍山中央大厦店</option>
+                
+                <option value="10" >南京山西路五星店</option>
+                
+                <option value="33" >马鞍山雨山东路店</option>
+                
+                <option value="15" >马鞍山解放路店  </option>
+                
+                <option value="20" >南京延龄巷东渡大厦店</option>
+                
+                <option value="40" >常州横林店  </option>
+                
+                <option value="45" >巢湖城市之光店</option>
+                
+                <option value="14" >南京丰富路民族大厦店</option>
+                
+                <option value="31" >巢湖向阳路店</option>
+                
+                <option value="11" >南京定淮门正泰大厦店</option>
+                
+                <option value="36" >苏州凤凰街店</option>
+                
+                <option value="37" >扬州江都龙城路店</option>
+                
+                <option value="16" >马鞍山中央花园店</option>
+                
+                <option value="42" >南通通州店</option>
+                
+            </select></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="25" align="right" valign="bottom"><input type="image" src="fdjs/ico1-1.jpg" width="45" height="20" border="0" /></td>
+      </tr>  </form>
+	  <form name="form2" method="post" action="index.asp">
+	  <input type="hidden" name="csid"  id="csid"/>
+	  </form>
+    </table></td>
+    <td width="12"></td>
+    <td width="728" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><script type="text/javascript">
+				var pics="";
+				 var links="";
+				 var texts="";	
+				 
+				pics+="qmbg/news1/uploadpic/2012420221962539.33.jpg";
+	    		links+=""+escape("news/hr_show_x.asp?nid=56");
+				
+				pics+="|qmbg/news1/uploadpic/201242563347193.34.jpg";
+	    		links+="|"+escape("news/hr_show_x.asp?nid=55");
+				
+				pics+="|qmbg/news1/uploadpic/2012416154144141.64.jpg";
+	    		links+="|"+escape("news/hr_show_x.asp?nid=54");
+				
+				pics+="|qmbg/news1/uploadpic/2012416145744097.39.jpg";
+	    		links+="|"+escape("news/hr_show_x.asp?nid=53");
+				
+				pics+="|qmbg/news1/uploadpic/201246591732357.27.jpg";
+	    		links+="|"+escape("news/hr_show_x.asp?nid=52");
+				
+				pics+="|qmbg/news1/uploadpic/201246583932319.3.jpg";
+	    		links+="|"+escape("news/hr_show_x.asp?nid=51");
+				
+				var focus_width=728;
+				 var focus_height=238;
+				 var text_height=0;
+				 var swf_height = focus_height+text_height;			 
+				 document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+				 document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="images/focus2.swf"><param name="quality" value="high"><param name="bgcolor" value="#F0F0F0">');
+				 document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+				 document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');
+				 document.write('</object>');</script>
+</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="5" colspan="9"></td>
+  </tr>
+  <tr>
+    <td width="13"></td>
+    <td width="256" valign="top">
+	
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="3"><img src="images/login_bg1.jpg" width="256" height="28" /></td>
+      </tr>
+      <tr>
+        <td width="10" background="images/login_l.jpg"></td>
+        <td width="236" bgcolor="#FDFDFD">
+		<form name="login" action="index.asp" method="post">
+		<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="11"></td>
+          </tr>
+          <tr>
+            <td height="25">会员号：
+              <input type="text" name="username"  id="username" style="width:160px" value="手机号/会员卡号/身份证号" onFocus="del()" /></td>
+          </tr>
+          <tr>
+            <td height="25">密&nbsp; 码：
+              <input type="password" name="password" style="width:160px" /></td></tr>
+          <tr>
+            <td height="25">验证码：
+              <input type="text" name="code" style="width:80px" onKeyUp="value=value.replace(/\D+/g,'')" />&nbsp;<img src="Code/code.asp" onClick="this.src='Code/code.asp'" style="cursor:hand;"></td>
+          </tr>
+          <tr>
+            <td height="25" align="right"><input type="hidden" name="action" value="send" /><input type="image" src="images/ico3-03.jpg" width="45" height="24" />&nbsp;&nbsp;<a href="member/dr1.asp"  ><img src="images/ico4.jpg" width="70" height="24" border="0" /></a>&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="30" align="right"><a href="member/login.asp"><img src="images/ico5.jpg" width="225" height="33" border="0" /></a></td>
+          </tr>
+        </table>
+		</form>
+		</td>
+        <td width="10" background="images/login_r.jpg"></td>
+      </tr>
+      <tr>
+        <td><img src="images/login_1.jpg" width="10" height="10" /></td>
+        <td background="images/login_d.jpg"></td>
+        <td align="right"><img src="images/login_2.jpg" width="10" height="10" /></td>
+      </tr>
+    </table>
+	
+	
+	
+	</td>
+    <td width="8"></td>
+    <td width="237" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="24" colspan="3" background="images/news_tit.jpg"><table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="white">优惠特区</td>
+            <td align="right" class="white"><a href="news/yh.asp?leibieid=7" class="white">| 更多</a></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td width="10" rowspan="3" background="images/login_l.jpg"></td>
+        <td width="217" bgcolor="#FDFDFD">&nbsp;</td>
+        <td width="10" rowspan="3" background="images/login_r.jpg"></td>
+      </tr>
+      <tr>
+        <td bgcolor="#FDFDFD"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+		
+          <tr>
+            <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="4%" align="right"><img src="images/ico6.jpg" width="5" height="5" /></td>
+                  <td width="2%" height="22"></td>
+                  <td width="94%"><a href="news/newsshow.asp?nid=305&leibieid=7">2012年文润年会精彩视频...</a><img src="images/new.gif" /></td>
+                </tr>
+                <tr>
+                  <td height="4" colspan="3" background="images/xuxian.jpg"></td>
+                </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="4%" align="right"><img src="images/ico6.jpg" width="5" height="5" /></td>
+                  <td width="2%" height="22"></td>
+                  <td width="94%"><a href="news/newsshow.asp?nid=304&leibieid=7">马鞍山中央花园店升级装修进...</a><img src="images/new.gif" /></td>
+                </tr>
+                <tr>
+                  <td height="4" colspan="3" background="images/xuxian.jpg"></td>
+                </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="4%" align="right"><img src="images/ico6.jpg" width="5" height="5" /></td>
+                  <td width="2%" height="22"></td>
+                  <td width="94%"><a href="news/newsshow.asp?nid=288&leibieid=7">文润连锁酒店开通微博啦！</a><img src="images/new.gif" /></td>
+                </tr>
+                <tr>
+                  <td height="4" colspan="3" background="images/xuxian.jpg"></td>
+                </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="4%" align="right"><img src="images/ico6.jpg" width="5" height="5" /></td>
+                  <td width="2%" height="22"></td>
+                  <td width="94%"><a href="news/newsshow.asp?nid=286&leibieid=7">节假日调价通知</a><img src="images/new.gif" /></td>
+                </tr>
+                <tr>
+                  <td height="4" colspan="3" background="images/xuxian.jpg"></td>
+                </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="4%" align="right"><img src="images/ico6.jpg" width="5" height="5" /></td>
+                  <td width="2%" height="22"></td>
+                  <td width="94%"><a href="news/newsshow.asp?nid=282&leibieid=7">文润会员卡免费带回家啦！</a><img src="images/new.gif" /></td>
+                </tr>
+                <tr>
+                  <td height="4" colspan="3" background="images/xuxian.jpg"></td>
+                </tr>
+            </table></td>
+          </tr>
+		  
+        </table></td>
+      </tr>
+      <tr>
+        <td bgcolor="#FDFDFD">&nbsp;</td>
+      </tr>
+      
+      <tr>
+        <td><img src="images/login_1.jpg" width="10" height="10" /></td>
+        <td background="images/login_d.jpg"></td>
+        <td><img src="images/login_2.jpg" width="10" height="10" /></td>
+      </tr>
+    </table></td>
+    <td width="6"></td>
+    <td width="237" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="24" colspan="3" background="images/news_tit.jpg"><table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td class="white">最新动态</td>
+              <td align="right" class="white"><a href="news/yh.asp?leibieid=8" class="white">| 更多</a></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td width="10" rowspan="3" background="images/login_l.jpg"></td>
+        <td width="217" bgcolor="#FDFDFD">&nbsp;</td>
+        <td width="10" rowspan="3" background="images/login_r.jpg"></td>
+      </tr>
+      <tr>
+        <td bgcolor="#FDFDFD"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+		
+            <tr>
+              <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="4%" align="right"><img src="images/ico6.jpg" width="5" height="5" /></td>
+                    <td width="2%" height="22"></td>
+                    <td width="94%"><a href="news/newsshow.asp?nid=327&leibieid=8">用心做好每一件事情</a><img src="images/new.gif" /></td>
+                  </tr>
+                  <tr>
+                    <td height="4" colspan="3" background="images/xuxian.jpg"></td>
+                  </tr>
+              </table></td>
+            </tr>
+			 
+            <tr>
+              <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="4%" align="right"><img src="images/ico6.jpg" width="5" height="5" /></td>
+                    <td width="2%" height="22"></td>
+                    <td width="94%"><a href="news/newsshow.asp?nid=326&leibieid=8">活到老，学到老</a><img src="images/new.gif" /></td>
+                  </tr>
+                  <tr>
+                    <td height="4" colspan="3" background="images/xuxian.jpg"></td>
+                  </tr>
+              </table></td>
+            </tr>
+			 
+            <tr>
+              <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="4%" align="right"><img src="images/ico6.jpg" width="5" height="5" /></td>
+                    <td width="2%" height="22"></td>
+                    <td width="94%"><a href="news/newsshow.asp?nid=325&leibieid=8">要做就做到最好</a><img src="images/new.gif" /></td>
+                  </tr>
+                  <tr>
+                    <td height="4" colspan="3" background="images/xuxian.jpg"></td>
+                  </tr>
+              </table></td>
+            </tr>
+			 
+            <tr>
+              <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="4%" align="right"><img src="images/ico6.jpg" width="5" height="5" /></td>
+                    <td width="2%" height="22"></td>
+                    <td width="94%"><a href="news/newsshow.asp?nid=324&leibieid=8">成功要素：意念、信念、坚持...</a><img src="images/new.gif" /></td>
+                  </tr>
+                  <tr>
+                    <td height="4" colspan="3" background="images/xuxian.jpg"></td>
+                  </tr>
+              </table></td>
+            </tr>
+			 
+            <tr>
+              <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="4%" align="right"><img src="images/ico6.jpg" width="5" height="5" /></td>
+                    <td width="2%" height="22"></td>
+                    <td width="94%"><a href="news/newsshow.asp?nid=321&leibieid=8">快快乐乐去工作</a><img src="images/new.gif" /></td>
+                  </tr>
+                  <tr>
+                    <td height="4" colspan="3" background="images/xuxian.jpg"></td>
+                  </tr>
+              </table></td>
+            </tr>
+			 
+            
+        </table></td>
+      </tr>
+      <tr>
+        <td bgcolor="#FDFDFD">&nbsp;</td>
+      </tr>
+      
+      <tr>
+        <td><img src="images/login_1.jpg" width="10" height="10" /></td>
+        <td background="images/login_d.jpg"></td>
+        <td><img src="images/login_2.jpg" width="10" height="10" /></td>
+      </tr>
+    </table></td>
+    <td width="3"></td>
+    <td width="234" valign="top"><table width="99%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="24" colspan="3" background="images/xc_tit.jpg"><table width="88%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td class="white">企业相册</td>
+              <td align="right" class="white"><a href="news/news.asp" class="white">| 更多</a></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td width="10" rowspan="2" background="images/login_l.jpg"></td>
+        <td width="212" bgcolor="#FDFDFD"></td>
+        <td width="10" rowspan="2" background="images/login_r.jpg"></td>
+      </tr>
+      <tr>
+        <td bgcolor="#FDFDFD"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td valign="middle" align="center" style="padding-top:4px"><style type="text/css">
+<!--
+#demo {
+background: #FFF;
+overflow:hidden;
+width:232px;
+height:94px
+}
+#demo img {
+border: 3px solid #F2F2F2;
+}
+#indemo {
+float: left;
+width: 800%;
+}
+#demo1 {
+float: left;
+}
+#demo2 {
+float: left;
+}
+-->
+        </style>
+                  <div id="demo">
+                    <div id="indemo">
+                      <div id="demo1">
+                        
+                        <a href="news/news.asp"><img src="qmbg/news2/uploadpic/2012112553450134.55.jpg" border="0" width="120"  height="81" /></a>
+                        
+                        <a href="news/news.asp"><img src="qmbg/news2/uploadpic/201211235648906.41.jpg" border="0" width="120"  height="81" /></a>
+                        
+                        <a href="news/news.asp"><img src="qmbg/news2/uploadpic/2012112465549615.12.jpg" border="0" width="120"  height="81" /></a>
+                        
+                        <a href="news/news.asp"><img src="qmbg/news2/uploadpic/201211262447184.96.jpg" border="0" width="120"  height="81" /></a>
+                        
+                        <a href="news/news.asp"><img src="qmbg/news2/uploadpic/2012112481149691.35.jpg" border="0" width="120"  height="81" /></a>
+                        
+                        <a href="news/news.asp"><img src="qmbg/news2/uploadpic/20117829141341.04.jpg" border="0" width="120"  height="81" /></a>
+                        
+                      </div>
+                      <div id="demo2"></div>
+                    </div>
+                  </div>
+                <script>
+<!--
+var speed=20; //数字越大速度越慢
+var tab=document.getElementById("demo");
+var tab1=document.getElementById("demo1");
+var tab2=document.getElementById("demo2");
+tab2.innerHTML=tab1.innerHTML;
+function Marquee(){
+if(tab2.offsetWidth-tab.scrollLeft<=0)
+tab.scrollLeft-=tab1.offsetWidth
+else{
+tab.scrollLeft++;
+}
+}
+var MyMar=setInterval(Marquee,speed);
+tab.onmouseover=function() {clearInterval(MyMar)};
+tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+-->
+          </script>              </td>
+            </tr>
+            
+            <tr>
+              <td align="center"><a href="mailto:qmjdchina@njqm.cn"><img src="images/1214.jpg" width="210" height="72" border="0"></a></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td><img src="images/login_1.jpg" width="10" height="10" /></td>
+        <td background="images/login_d.jpg"></td>
+        <td><img src="images/login_2.jpg" width="10" height="10" /></td>
+      </tr>
+    </table></td>
+    <td width="8"></td>
+  </tr>
+</table>
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="12"></td>
+  </tr>
+</table>
+
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="13" rowspan="3"></td>
+    <td width="125" rowspan="2"><img src="images/tit_fd.jpg" width="125" height="28" /></td>
+    <td width="844" height="27" valign="middle" bgcolor="#808080" class="white">　　<a href="fdjs/fdjs.asp?n_type=1">南京</a>　　　<a href="fdjs/fdjs.asp?n_type=2">马鞍山</a>　　　<a href="fdjs/fdjs.asp?n_type=3">泰州</a>　　　<a href="fdjs/fdjs.asp?n_type=4">常州</a>　　　<a href="fdjs/fdjs.asp?n_type=6">巢湖</a>　　　<a href="fdjs/fdjs.asp?n_type=10">苏州</a>　　　<a href="fdjs/fdjs.asp?n_type=11">扬州</a>　　　<a href="fdjs/fdjs.asp?n_type=13">南通</a></td>
+    <td width="17" rowspan="2"><img src="images/tit_fd2.jpg" width="17" height="28" /></td>
+    <td width="3" rowspan="3"></td>
+  </tr>
+  <tr>
+    <td height="1" bgcolor="#DEDEDE"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="1" bgcolor="#DEDEDE"></td>
+        <td width="16" style="background: url(images/tit_fdmain.jpg) repeat-x #F2F2F2"></td>
+        <td width="952" style="background: url(images/tit_fdmain.jpg) repeat-x #F2F2F2"><table width="98%" border="0">
+          <tr>
+            <td height="8"></td>
+          </tr>
+        </table>
+          <table width="98%" border="0"  cellpadding="0" cellspacing="0">
+		  
+          <tr>
+            <td height="22"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+			
+              <tr>
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=50">常州小河店（常州四店）</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=49">马鞍山湖西南路店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=48">泰州二店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=47">南京龙江新城市广场店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" />  <a href="fdjs/fdjs2.asp?nid=46">南京丹凤街三店</a></td>
+                    </tr>
+                </table></td>
+				
+              </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td height="22"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+			
+              <tr>
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=44">南京江宁竹山路店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=43">南京大明路店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=13">南京珠江路西大影壁店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=28">泰州坡子街店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" />  <a href="fdjs/fdjs2.asp?nid=8">南京丹凤街恒基公寓店</a></td>
+                    </tr>
+                </table></td>
+				
+              </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td height="22"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+			
+              <tr>
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=4">南京珠江路雄狮店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=3">南京珠江路百脑汇店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=6">南京丹凤街唱经楼店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=26">泰州姜堰店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" />  <a href="fdjs/fdjs2.asp?nid=5">南京中央门汽车站店</a></td>
+                    </tr>
+                </table></td>
+				
+              </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td height="22"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+			
+              <tr>
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=24">马鞍山雨山西路店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=25">南京六合长江路店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=32">常州湖塘花园街一店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=19">南京栖霞区甘家巷店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" />  <a href="fdjs/fdjs2.asp?nid=35">常州湖塘花园街二店</a></td>
+                    </tr>
+                </table></td>
+				
+              </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td height="22"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+			
+              <tr>
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=17">南京广州路随园大厦店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=1">南京瑞金路金润发店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=12">南京北门桥店 </a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=39">南京大桥南路店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" />  <a href="fdjs/fdjs2.asp?nid=18">南京湖南路丁家桥店</a></td>
+                    </tr>
+                </table></td>
+				
+              </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td height="22"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+			
+              <tr>
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=38">马鞍山中央大厦店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=10">南京山西路五星店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=33">马鞍山雨山东路店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=15">马鞍山解放路店  </a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" />  <a href="fdjs/fdjs2.asp?nid=20">南京延龄巷东渡大厦店</a></td>
+                    </tr>
+                </table></td>
+				
+              </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td height="22"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+			
+              <tr>
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=40">常州横林店  </a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=45">巢湖城市之光店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=14">南京丰富路民族大厦店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=31">巢湖向阳路店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" />  <a href="fdjs/fdjs2.asp?nid=11">南京定淮门正泰大厦店</a></td>
+                    </tr>
+                </table></td>
+				
+              </tr>
+            </table></td>
+          </tr>
+		  
+          <tr>
+            <td height="22"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+			
+              <tr>
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=36">苏州凤凰街店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=37">扬州江都龙城路店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /> <a href="fdjs/fdjs2.asp?nid=16">马鞍山中央花园店</a></td>
+                    </tr>
+                </table></td>
+				
+                <td width="188" style="border-bottom:solid 1px #D0CFD4"><table width="188" border="0"  cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td ><img src="images/ico6.jpg" width="5" height="5" /><a href=http://wpa.qq.com/msgrd?V=1&Uin=1211447171><img border="0" SRC=http://wpa.qq.com/pa?p=1:1211447171:17 alt="点击这里给我发消息">订宾馆</a></td>
+                    </tr>
+                </table></td>
+				
+				<td width="188"></td>
+				   
+              </tr>
+            </table></td>
+          </tr>
+		  
+        </table>
+          </td>
+        <td width="16" style="background: url(images/tit_fdmain.jpg) repeat-x #F2F2F2"></td>
+        <td width="1" bgcolor="#DEDEDE"></td>
+      </tr>
+      <tr>
+        <td width="17" colspan="2"><img src="images/tit_fd4.jpg" width="17" height="13" /></td>
+        <td background="images/tit_fdunder.jpg"></td>
+        <td width="17" colspan="2"><img src="images/tit_fd3.jpg" width="17" height="13" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="18" colspan="7"></td>
+  </tr>
+  <tr>
+    <td height="1" colspan="7" bgcolor="#C8C8C7"></td>
+  </tr>
+  <tr>
+    <td width="55" bgcolor="#F8F8F6"></td>
+    <td width="298" height="40" bgcolor="#F8F8F6"><img src="images/tell.jpg" width="105" height="28" />
+      <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0','width','90','height','28','src','images/tell1','quality','high','pluginspage','http://www.macromedia.com/go/getflashplayer','wmode','transparent','movie','images/tell1' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="90" height="28">
+        <param name="movie" value="images/tell1.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="transparent" />
+        <embed src="images/tell1.swf" width="90" height="28" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
+      </object>
+    </noscript>
+<a href="service/kf.asp"><img src="images/kefu.jpg" width="99" height="28" border="0" /></a></td>
+    <td width="6" bgcolor="#F8F8F6"></td>
+    <td width="274" bgcolor="#F8F8F6"><a href="about/about.asp">关于文润</a> / <a href="fdjs/fdjs.asp">分店介绍</a> / <a href="food/food.asp">联系我们</a> / <a href="news/hr.asp">诚聘英才</a> </td>
+    <td width="300" bgcolor="#F8F8F6">CopyRight 2009 文润酒店连锁 All Right Reserved.</td>
+    <td width="44" bgcolor="#F8F8F6"><a href="#~"><img src="images/top.jpg" width="41" height="22" border="0" /></a></td>
+    <td width="25" bgcolor="#F8F8F6"></td>
+  </tr>
+  <tr>
+    <td height="1" colspan="7" bgcolor="#C8C8C7"></td>
+  </tr>
+  <tr>
+    <td height="40" colspan="7" align="center" bgcolor="#F8F8F6"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="64%" align="right">欢迎您来到文润网站，您是第
+          <script src="http://www.71nc.com/forevernetscounter/counter.asp?user=njqm&countype=12"></script>位访客 </td>
+          <td width="34%" align="right"><span class="ye"><a href="http://www.miibeian.gov.cn/" target="_blank" class="ye">等待备案</a>
+          <td width="2%" align="right">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<DIV style="display:none">
+<TABLE BORDER="0">
+<TBODY>
+<tr><td><a href="http://www.google.com" title="google">谷歌</a></td></tr>
+<tr><td><a href="http://www.baidu.com" title="百度">百度</a></td></tr>
+
+</DIV>
+<script type="text/javascript">
+//var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+//document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff1f36907c3f098c3ee39867488589d15' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+</body>
+</html>

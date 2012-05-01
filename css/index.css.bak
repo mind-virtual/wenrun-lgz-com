@@ -1,0 +1,124 @@
+body_bak {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+    background-image: url(../images/bg1.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFFCF7;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+	background-color: red;
+}
+.red {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #F62830;
+}
+
+body,td,th {
+    font-family: "宋体";
+	font-size: 12px;
+	color: #181818;
+}
+a {
+	font-size: 12px;
+	color: #181818;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #181818;
+}
+a:hover {
+	text-decoration: none;
+	color: #F62830;
+}
+a:active {
+	text-decoration: none;
+}
+.white {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.white:link {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.white:visited {
+font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.white:hover {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FBA300;
+	text-decoration: none;
+}
+a.white:active {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.nav {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+
+
+}
+a.nav:link {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+
+
+}
+a.nav:visited {
+	font-family: "宋体";
+    font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+
+
+}
+a.nav:hover {
+	font-family: "宋体";
+	font-size: 13px;
+
+	color: #1E9400;
+	text-decoration: none;
+
+}
+a.nav:active {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+
+
+}
+.ye {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #665401;
+	text-decoration: none;
+}

@@ -1,0 +1,245 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/bg2.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFFCF7;
+}
+body_bak {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+	background-color: red;
+}
+.red {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #F62830;
+}
+.red2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #F62830;
+}
+.red14 {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #F62830;
+}
+.blod {
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #181818;
+	font-weight:bold;
+}
+.blod2 {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #181818;
+	font-weight:bold;
+}
+.blod14 {
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #181818;
+	font-weight:bold;
+}
+body,td,th {
+	color: #181818;
+	font: 12px/20px "宋体";
+}
+a {
+	font-size: 12px;
+	color: #181818;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #181818;
+}
+a:hover {
+	text-decoration: none;
+	color: #F62830;
+}
+a:active {
+	text-decoration: none;
+}
+.white {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.white:link {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.white:visited {
+font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.white:hover {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FBA300;
+	text-decoration: none;
+}
+a.white:active {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.white9 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ye {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #665401;
+	text-decoration: none;
+}
+.orager2 {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF9E07;
+	text-decoration: none;
+}.orager3 {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FE6500;
+	text-decoration: none;
+}
+.orager4 {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FF9E05;
+	text-decoration: none;
+}
+.tit1 {
+	font-family: "宋体",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FE6500;
+	text-decoration: none;
+}
+.tit2 {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+	background-color: #FFDD3D;
+	border: 1px solid #875E0F;
+
+}
+a.tit2:link {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+	background-color: #FFDD3D;
+	border: 1px solid #875E0F;
+}
+a.tit2:visited {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+	background-color: #FFDD3D;
+	border: 1px solid #875E0F;
+}
+a.tit2:hover {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #FE6500;
+	text-decoration: none;
+	background-color: #FFF7BD;
+	border: 1px solid #FE6500;
+}
+a.tit2:active {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+	background-color: #FFDD3D;
+	border: 1px solid #875E0F;
+}
+.nav {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+
+
+}
+a.nav:link {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+
+
+}
+a.nav:visited {
+	font-family: "宋体";
+    font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+
+
+}
+a.nav:hover {
+	font-family: "宋体";
+	font-size: 13px;
+
+	color: #1E9400;
+	text-decoration: none;
+
+}
+a.nav:active {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #6A3C00;
+	text-decoration: none;
+}
+
+.s1{
+	font: 12px/18px "宋体";
+	color:#333333;
+}
+.en-font {
+	font-family: Verdana;
+	font-size: 11px;
+}
+.gold14b {
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #997814;
+}
+.padding1 {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
